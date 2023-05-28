@@ -1,0 +1,308 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Righteous&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Sedgwick Ave Display', cursive;
+  justify-content: center;
+  align-items: center;
+  display: ;
+    
+    /* font-family: 'Lato', sans-serif; */
+  }
+  .icon {
+    display: none;
+  }
+section.section1{
+    padding: 10px 0px 0px 40px;
+    border-bottom: 1px solid black;
+}
+section div.nav ul.nav-list { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+section.section1 div.nav-list ul.nav-list li.list-btn a.homeActive{
+    
+}
+section div.nav ul.nav-list h1.BrandName{
+    /* margin-right: 40%; */
+}
+section div.nav ul.nav-list h1.BrandName span.b2{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+section div.nav ul.nav-list h1.BrandName span.b1{
+    text-shadow: 2px 2px 5px black;
+}
+section div.nav ul.nav-list li, a{
+padding-left: 5%;
+list-style: none;
+text-decoration: none;
+color: black;
+
+}
+
+section div.nav ul.nav-list li.list-btn a.homeActive{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+section div.nav ul.nav-list li.list-btn a#lir4{
+    background: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+section div.nav ul.nav-list li.list-btn a#lir4:hover {
+background-color: #c17b40;
+
+color: white;
+padding: 5px 10px;
+border-radius: 5px;
+flex-grow: 2;
+}
+section div.nav ul.nav-list li.list-btn{
+    margin-left: 25px;
+}
+
+/* SECTION 2 */
+
+div.section2 {
+    height: 400px;
+    background-color: #c17b40;
+  width: 80%;
+  margin-left: 150px;
+   
+  /* animation: color-me-in 5s; */
+}
+div.section2:hover{
+    width: 100%; 
+    background-color: black;
+    color: white;
+    margin-left: 0;
+    cursor: pointer;
+    
+}
+/* div.2secs{
+    transition: all 1s;
+}
+div.2secs:hover {
+    width: 100%;
+    background-color: #c17b40;
+  } */
+
+
+/* @keyframes color-me-in {
+    0% {
+      background: rgb(248, 248, 245);
+    }
+    50% {
+        background: rgb(159, 159, 212);
+      }
+    100% {
+      background: #c17b40;
+    }
+  } */
+
+  div.section2 h1 {
+    margin-top: 105px;
+    font-size: 50px;
+    
+}
+/* slide */
+/* .slider {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slides {
+  width: 500px;
+  height: 500px;
+  display: flex;
+} */
+/* SECTION 3 */
+div.abt-sec  {
+  height: 200px;
+
+}
+img.abt-img {
+  height: 400px; 
+  margin-left: 190px;
+}
+
+div.abt-text {
+  width: 35%;
+  letter-spacing: 0.7px;
+}
+div.section3 {
+  
+    /* height: 450px;
+    padding-left: 95px;
+     */
+     /* display: flex;
+     flex-wrap: wrap; */
+
+}
+div.section3:hover{
+    transform: scale(1.1);
+}
+
+
+/* FOOTER */
+div.footer {
+    /* background-color: black; */
+    height: 250px;
+    border-top: 2px black;
+}
+
+
+
+
+
+/* colums */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* row */
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+ 
+
+
+/* media queries */
+@media only screen and (max-width: 1092px) {
+
+*{
+  width: 100%;
+  
+}
+.icon{
+  display: flex;
+    flex-direction: row-reverse;
+}
+section div.nav ul.nav-list li{
+  display: none;
+
+}
+div.abt-text {
+  width: 100%;
+}
+.aboutme {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+img.abt-img {
+  height: 400px;
+    margin-left: 314px;
+    width: 90%;
+}
+div.section2 {
+  
+  margin-left: 106px;
+
+}
+}
+
+
+
+
+/* TABLETS PORTRAIT */
+@media only screen and (max-width: 831px) {
+  div.section2 {
+    margin-left: 90px;
+}
+img.abt-img { 
+  margin-left: 206px;
+}
+
+
+}
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 600px) {
+  img.abt-img {
+  
+    margin-left: 166px;
+    
+}
+div.section2 {
+  margin-left: 65px;
+}
+.aboutme {
+  width: 20%;
+}
+
+}
+
+@media only screen and (max-width: 390px) {
+  /* For desktop: */
+  /* .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;} */
+    
+    body {
+      
+      width: 100%;
+    }
+    .list-btn{
+      display: none;
+    }
+    div.section2 {
+      margin-left: 48px;
+      
+    }
+    div.section2:hover {
+      width: 100%;
+    }
+    img.abt-img {
+      margin-left: 36px;
+    }
+    div.abt-text {
+      width: 100%;
+
+    }
+    div.section3 {
+      width: 100%;
+    }
+}
